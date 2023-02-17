@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i> BookZone </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="product.html">product</a>
+            <a href="#featured">featured</a>
+            <a href="about.html">About</a>
+            <a href="#reviews">Book lover's</a>
+            
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+
+
+<!----------------About-------------->
+
+<section>
+    <h1 class="heading"> <span>About us</span> </h1>
+     <div class="row">
+          <div class="col-2">
+               <h1>Amit Singh<br>BookZone.in</h1>
+               <p>BookZone.in works to connect readers with independent booksellers all over the world.<br>
+               We believe local bookstores are essential community hubs that foster culture, curiosity, and a love of reading, and we're committed to helping them thrive.<br>Every purchase on the site financially supports independent bookstores. Our platform gives independent bookstores tools to compete online and financial support to help them maintain their presence in local communities.</p>
+               
+          </div>
+          <div class="col-2">
+               <img src="image/img-1.jpg">
+          </div>
+      </div>
+     </div>
+
+</section>
+
+
+
+
+
+<!-- Book lover section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>Book Lover's Thought</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <h3>William Styron</h3>
+                <p>"A great book should leave you with many experiences, and slightly exhausted at the end. You live several lives while reading."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <h3>Jean Rhys</h3>
+                <p>"Reading makes immigrants of us all. It takes us away from home, but more important, it finds homes for us everywhere."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.jpg" alt="">
+                <h3>Barack Obama</h3>
+                <p>"Reading is important. If you know how to read, then the whole world opens up to you.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <h3>Malorie Blackman</h3>
+                <p>"Reading is an exercise in empathy; an exercise in walking in someone else’s shoes for a while."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <h3>Sharon Creech</h3>
+                <p>"I love the way that each book — any book — is its own journey. You open it, and off you go…"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <h3>Laurie Anderson</h3>
+                <p>"Literature is the safe and traditional vehicle through which we learn about the world and pass on values from one generation to the next. Books save lives."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- book lover section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="product.html"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> book lover's </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91XXXXXXXX </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91XXXXXXXX </a>
+            <a href="#"> <i class="fas fa-envelope"></i>heroamitkumar01gmail.com</a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>Amit Singh</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/book.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
